@@ -1,10 +1,12 @@
-# ubuntu-non-root-with-utils
+# docker-ubuntu-non-root-with-utils
+
 ubuntu with a non-root user (soduable) so work with some anti-root tools, with some daily tools
 
-```
-$ docker run -it osexp2000/ubuntu-non-root-with-utils
-devuser@446f84fa0d63:~$ id
-uid=1000(devuser) gid=1000(devuser) groups=1000(devuser),27(sudo)
-devuser@446f84fa0d63:~$ pwd
-/home/devuser
+```shell
+$ docker run -it alvisisme/docker-ubuntu-non-root-with-utils
+dev@51774830f8c3:~$ id
+uid=1000(dev) gid=1000(dev) groups=1000(dev),27(sudo)
+dev@51774830f8c3:~$ pwd
+/home/dev
+dev@51774830f8c3:~$
 ```
